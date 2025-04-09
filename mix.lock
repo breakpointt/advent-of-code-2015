@@ -1,0 +1,5 @@
+%{
+  "git_cli": {:hex, :git_cli, "0.3.0", "a5422f9b95c99483385b976f5d43f7e8233283a47cda13533d7c16131cb14df5", [:mix], [], "hexpm", "78cb952f4c86a41f4d3511f1d3ecb28edb268e3a7df278de2faa1bd4672eaf9b"},
+  "git_ops": {:hex, :git_ops, "2.7.2", "2d3c164a8bcaf13f129ab339e8e9f0a99c80ffa8f85dd0b344d7515275236dbc", [:mix], [{:git_cli, "~> 0.2", [hex: :git_cli, repo: "hexpm", optional: false]}, {:igniter, ">= 0.5.27 and < 1.0.0-0", [hex: :igniter, repo: "hexpm", optional: true]}, {:nimble_parsec, "~> 1.0", [hex: :nimble_parsec, repo: "hexpm", optional: false]}], "hexpm", "1dcd68b3f5bcd0999d69274cd21e74e652a90452e683b54d490fa5b26152945f"},
+  "nimble_parsec": {:hex, :nimble_parsec, "1.4.2", "8efba0122db06df95bfaa78f791344a89352ba04baedd3849593bfce4d0dc1c6", [:mix], [], "hexpm", "4b21398942dda052b403bbe1da991ccd03a053668d147d53fb8c4e0efe09c973"},
+}
