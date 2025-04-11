@@ -1,13 +1,28 @@
 defmodule Aoc2015.MixProject do
   use Mix.Project
 
+  @source_url "https://github.com/breakpointt/advent-of-code-2015"
+  @version "1.1.0"
+
   def project do
     [
       app: :aoc_2015,
-      version: "0.1.1",
+      version: @version,
       elixir: "~> 1.18",
+      docs: docs(),
       start_permanent: Mix.env() == :prod,
       deps: deps()
+    ]
+  end
+
+  defp docs do
+    [
+      main: "readme",
+      source_url: @source_url,
+      source_ref: "v#{@version}",
+      extras: [
+        "README.md"
+      ]
     ]
   end
 

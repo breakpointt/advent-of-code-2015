@@ -5,6 +5,19 @@ See [Conventional Commits](Https://conventionalcommits.org) for commit guideline
 
 <!-- changelog -->
 
+## [v1.1.0](https://github.com/breakpointt/advent-of-code-2015/compare/v1.0.0...v1.1.0) (2025-04-11)
+
+
+
+
+### Features:
+
+* day_two: solve day 2 of Advent 2015
+
+### Bug Fixes:
+
+* changelog file was broken
+
 ## [v1.0.0](https://github.com/breakpointt/advent-of-code-2015/compare/v0.1.1...v1.0.0) (2025-04-09)
 ### Breaking Changes:
 
