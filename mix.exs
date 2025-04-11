@@ -2,7 +2,7 @@ defmodule Aoc2015.MixProject do
   use Mix.Project
 
   @source_url "https://github.com/breakpointt/advent-of-code-2015"
-  @version "1.1.0"
+  @version "1.1.1"
 
   def project do
     [
