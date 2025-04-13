@@ -5,6 +5,27 @@ See [Conventional Commits](Https://conventionalcommits.org) for commit guideline
 
 <!-- changelog -->
 
+## [v1.2.0](https://github.com/breakpointt/advent-of-code-2015/compare/v1.1.1...v1.2.0) (2025-04-13)
+
+
+
+
+### Features:
+
+* DayThree: solve for day three challenge (#1)
+
+## [v1.4.0](https://github.com/breakpointt/advent-of-code-2015/compare/v1.3.0...v1.4.0) (2025-04-13)
+
+
+
+
+### Features:
+
+* DayThree: solve for day three challenge (#1)
+### Features:
+
+* DayThree: solve for day three challenge (#1)
+
 ## [v1.1.1](https://github.com/breakpointt/advent-of-code-2015/compare/v1.1.0...v1.1.1) (2025-04-11)
 
 
