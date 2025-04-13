@@ -15,6 +15,8 @@ defmodule Aoc2015 do
   """
   require Aoc2015.DayOne.Solution
   require Aoc2015.DayTwo.Solution
+  require Aoc2015.DayThree.Solution
+
 
   def hello do
     :world
@@ -47,5 +49,24 @@ defmodule Aoc2015 do
     Enum.reduce(parsed_data, 0, fn x, acc ->
       acc + Aoc2015.DayTwo.Solution.calculate_ribbon_length(x)
     end)
+  end
+
+  def day_three_unique_house_deliveries do
+    delivery_map = File.read!("./assets/day_three_input.txt")
+                   |> String.graphemes()
+
+    total_deliveries =
+      Aoc2015.DayThree.Solution.santa_delivery(delivery_map, [[0,0]])
+
+    length(Enum.uniq(total_deliveries))
+  end
+
+  def day_three_two_santas_unique_house_deliveries do
+    delivery_map = File.read!("./assets/day_three_input.txt")
+                   |> String.graphemes()
+
+    santa_deliveries = Aoc2015.DayThree.Solution.two_santa_delivery(delivery_map, [[0,0]])
+
+    length(Enum.uniq(santa_deliveries))
   end
 end
